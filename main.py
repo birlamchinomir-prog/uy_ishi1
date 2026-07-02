@@ -1,19 +1,16 @@
+matn = "Hello World!"
+print(matn)
 
-print('"Nexia", "Tico", \'Damas\' ko\'rganlar qilar havas')
+xabar = "Salom, Python!"
+print(xabar)
 
-print("-" * 40)
+xabar = "Endi xabar o'zgardi"
+print(xabar)
 
-print(f"5 ning 4-darajasi {5**4}")
+sinf = "10-A"
+print(sinf)
 
-print(f"22 ni 4 ga bo'lganda qoldiq {22 % 4} qoladi")
-
-a = 125
-S_kvadrat = a**2
-P_kvadrat = 4 * a
-print(f"Tomonlari 125 ga teng kvadratning yuzi {S_kvadrat}, perimetri {P_kvadrat}")
-
-d = 12
-r = d / 2
-pi = 3.14
-S_doira = pi * (r**2)
-print(f"Diametri 12 ga teng bo'lgan doiraning yuzi {S_doira}")
+radius = 5
+pi = 3.14159
+aylana_yuzi = pi * radius ** 2
+print("Radiusi", radius, "ga teng aylananing yuzi=", aylana_yuzi)
