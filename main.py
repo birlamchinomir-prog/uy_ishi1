@@ -1,16 +1,7 @@
-matn = "Hello World!"
-print(matn)
+son = int(input("Istalgan son kiriting:\n>>>"))
 
-xabar = "Salom, Python!"
-print(xabar)
+kvadrat = son ** 2
+kub = son ** 3
 
-xabar = "Endi xabar o'zgardi"
-print(xabar)
-
-sinf = "10-A"
-print(sinf)
-
-radius = 5
-pi = 3.14159
-aylana_yuzi = pi * radius ** 2
-print("Radiusi", radius, "ga teng aylananing yuzi=", aylana_yuzi)
+print(f"{son}  ning kvadrati  {kvadrat}  ga teng")
+print(f"{son}  ning kubi  {kub}  ga teng")10
