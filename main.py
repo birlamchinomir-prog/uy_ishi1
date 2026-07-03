@@ -1,7 +1,6 @@
-son = int(input("Istalgan son kiriting:\n>>>"))
+yosh = int(input("Yoshingiz nechida?\n>>>"))
 
-kvadrat = son ** 2
-kub = son ** 3
+joriy_yil = 2026
+tugilgan_yil = joriy_yil - yosh
 
-print(f"{son}  ning kvadrati  {kvadrat}  ga teng")
-print(f"{son}  ning kubi  {kub}  ga teng")10
+print(f"Siz  {tugilgan_yil}  da tug'ilgansiz")
